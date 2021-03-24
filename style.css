@@ -1,0 +1,271 @@
+body{
+	font-family: Roboto;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.fw-400{
+ font-weight: 400;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.introduction-grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-bottom: 2rem;
+	padding: 6rem 0;
+}
+
+.main-picture{
+	border-radius: 50%;
+	background-color: black;
+	height: 20rem;
+  	width: 20rem;
+  	background-image: url("Camilo.jpeg");
+  	background-size: cover;
+  	background-position: 50% 15%;
+   
+
+}
+
+.secondary-title{
+	font-size: 2rem;
+	margin-top: 1rem;
+	padding: 1.7rem;
+}
+
+.primary-grey{
+	background-color: #F8F7F7;
+}
+
+.green{
+	background-color: #557373;
+}
+
+.secondary-grey{
+	background-color: #F0F0F0;
+}
+
+
+.button{
+	padding: 0.4rem;
+    background-color: #557373;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 1rem
+}
+
+
+.justice-icon{
+	width: 3rem; 
+	height: 3rem;
+	padding: 0.5rem;
+}
+.contact-main-grid{
+	width: 90%;
+	display: grid;;
+	grid-template-columns: 60% 40%;
+}
+
+
+.contact-info-grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+
+}
+
+
+.info-div{
+	margin-left: 1rem;
+}
+
+.info-div h3{
+	font-weight: 600;
+	font-size: 1.4rem;
+
+}
+
+.areas-grid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 50% 50%;
+}
+
+.area-div{
+	margin-left: 5.5rem;
+	margin-right: 5.5rem;
+}
+
+
+.area-div h3{
+	font-weight: 400;
+	font-size: 1.3rem;
+	border-bottom: 3px solid #557373;
+    padding: 4px;
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.area-div .material-icons{
+	font-size: 40px;
+}
+
+.area-div li{
+	font-size: 1.2rem;
+}
+
+
+.area-div ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.area-div ul li::before {
+  content: "-";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #557373; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 0.8em; /* Also needed for space (tweak if needed) */
+  font-size:17pt;
+   /* Also needed for space (tweak if needed) */
+}
+
+.footer-text{
+	color: white;
+	font-weight: 500;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-options{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu-options p{
+	margin-left: 3rem;
+    margin-right: 3rem;
+    color:white;
+    font-weight: 1rem;
+    font-size: 1.3rem;
+}
+
+.menu-options a{
+	text-decoration: none;
+}
+
+
+.experience-grid{
+	display: grid;
+	grid-template-columns: 46% 40%;
+	grid-column-gap: 5%
+}
+
+.experience-grid p{
+	font-size: 1.2rem;
+}
+
+.experience-grid li{
+	font-size: 1.2rem;
+	padding: 1rem;
+}
+
+
+.experience-text ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.experience-text ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #557373; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 0.8em; /* Also needed for space (tweak if needed) */
+  font-size:17pt;
+   /* Also needed for space (tweak if needed) */
+}
+
+.experience-text{
+	margin-left: 6rem;
+	
+}
+
+.map{
+	width: 95%;
+	overflow: hidden;
+}
+.info-div p{
+	font-size: 1.2rem;
+
+}
+
+@media only screen and (max-width: 700px) {
+
+	.introduction-grid{
+		display: flex;
+		flex-direction: column;
+		padding: 3rem 0;
+	}
+
+	.areas-grid{
+	display: block;
+	}
+
+	.menu-options{
+	display: none;
+	
+}
+
+.info-camilo{
+	margin-left: 3rem;
+}
+
+.contact-main-grid{
+	display: flex;
+	display: flex;
+		flex-direction: column;
+
+}
+
+.experience-grid{
+	display: flex;
+	flex-direction: column;
+  
+}
+.secondary-title{
+padding: 1rem;
+}
+.main-picture{
+	    height: 18rem;
+    width: 18rem;
+}
+
+.experience-text{
+	margin-left: 0.5rem;
+}
+
+.area-div{
+	margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+}
