@@ -27,6 +27,7 @@ html {
 	grid-template-columns: 50% 50%;
 	margin-bottom: 2rem;
 	padding: 6rem 0;
+	margin-top: 3rem;
 }
 
 .main-picture{
@@ -99,8 +100,16 @@ html {
 	font-size: 1.4rem;
 
 }
+.w-90{
+	width: 90%;
+}
+
+#areas{
+	margin-bottom: 4rem;
+}
 
 .areas-grid{
+	margin: 0 1rem;
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	grid-template-rows: 50% 50%;
@@ -154,6 +163,9 @@ html {
 .menu{
 	display: flex;
 	justify-content: space-between;
+	position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .menu-options{
