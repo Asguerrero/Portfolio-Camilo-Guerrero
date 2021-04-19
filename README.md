@@ -3,7 +3,8 @@ This is a portfolio for a professional lawyer.
 
 ## Features
 1. SEO optimazation
-2. Responsive design 
+2. Responsive design (flex and grid)
+3. Domain integration
 
 ## Figma Design
 
